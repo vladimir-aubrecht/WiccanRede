@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Spells>
+  <Action>
+    <Name>Fireball</Name>
+    <EnemyHpTaken>420</EnemyHpTaken>
+    <EnemyManaDrain>0</EnemyManaDrain>
+    <ManaDrain>28</ManaDrain>
+    <HpGot>0</HpGot>
+    <MyShift>0</MyShift>
+    <EnemyShift>-1</EnemyShift>
+    <EnemySpeedReduce>0</EnemySpeedReduce>
+    <EnemyEnergyDrain>0</EnemyEnergyDrain>
+    <MyEnergyDrain>3</MyEnergyDrain>
+    <Probability>78</Probability>
+    <Range>25</Range>
+    <Time>1800</Time>
+  </Action>
+  <Action>
+    <Name>Heal</Name>
+    <EnemyHpTaken>0</EnemyHpTaken>
+    <EnemyManaDrain>0</EnemyManaDrain>
+    <ManaDrain>60</ManaDrain>
+    <HpGot>220</HpGot>
+    <MyShift>0</MyShift>
+    <EnemyShift>0</EnemyShift>
+    <EnemySpeedReduce>0</EnemySpeedReduce>
+    <EnemyEnergyDrain>0</EnemyEnergyDrain>
+    <MyEnergyDrain>3</MyEnergyDrain>
+    <Probability>80</Probability>
+    <Range>5</Range>
+    <Time>2000</Time>
+  </Action>
+  <Action>
+    <Name>Moon prayer</Name>
+    <EnemyHpTaken>0</EnemyHpTaken>
+    <EnemyManaDrain>50</EnemyManaDrain>
+    <ManaDrain>-90</ManaDrain>
+    <HpGot>0</HpGot>
+    <MyShift>0</MyShift>
+    <EnemyShift>-1</EnemyShift>
+    <EnemySpeedReduce>0</EnemySpeedReduce>
+    <EnemyEnergyDrain>0</EnemyEnergyDrain>
+    <MyEnergyDrain>10</MyEnergyDrain>
+    <Probability>100</Probability>
+    <Range>5</Range>
+    <Time>3500</Time>
+  </Action>
+</Spells>

@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<List>
+  <NPC>
+    <Name>Ardin</Name>
+    <FSM>VillagerFSM</FSM>
+    <Position>
+      <X>30</X>
+      <Z>9</Z>
+    </Position>
+    <Character>Villager</Character>
+    <Actions>DefenseSpells</Actions>
+  </NPC>
+  <NPC>
+    <Name>Kara</Name>
+    <FSM>VillagerFSM</FSM>
+    <Position>
+      <X>18</X>
+      <Z>26</Z>
+    </Position>
+    <Character>Villager</Character>
+    <Actions>DefenseSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Pelin</Name>
+    <FSM>VillagerFSM</FSM>
+    <Position>
+      <X>32</X>
+      <Z>18</Z>
+    </Position>
+    <Character>Villager</Character>
+    <Actions>DefenseSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Marne</Name>
+    <FSM>VillagerFSM</FSM>
+    <Position>
+      <X>25</X>
+      <Z>5</Z>
+    </Position>
+    <Character>Villager</Character>
+    <Actions>DefenseSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Wesena</Name>
+    <FSM>VillagerFSM</FSM>
+    <Position>
+      <X>24</X>
+      <Z>25</Z>
+    </Position>
+    <Character>Villager</Character>
+    <Actions>DefenseSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Vala</Name>
+    <FSM>BasicFSM</FSM>
+    <Position>
+      <X>83</X>
+      <Z>40</Z>
+    </Position>
+    <Character>Vala</Character>
+    <Actions>AttackSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Ric</Name>
+    <FSM>BasicFSM</FSM>
+    <Position>
+      <X>90</X>
+      <Z>77</Z>
+    </Position>
+    <Character>Ric</Character>
+    <Actions>AttackSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Ton</Name>
+    <FSM>BasicFSM</FSM>
+    <Position>
+      <X>8</X>
+      <Z>98</Z>
+    </Position>
+    <Character>Ton</Character>
+    <Actions>AttackSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Mikel</Name>
+    <FSM>BasicFSM</FSM>
+    <Position>
+      <X>31</X>
+      <Z>64</Z>
+    </Position>
+    <Character>Mikel</Character>
+    <Actions>AttackSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Matheel</Name>
+    <FSM>BasicFSM</FSM>
+    <Position>
+      <X>100</X>
+      <Z>120</Z>
+    </Position>
+    <Character>Matheel</Character>
+    <Actions>BossSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Meda Brtnik</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>31</X>
+      <Y>75</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Meda Lesnik</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>41</X>
+      <Y>100</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Meda Horak</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>58</X>
+      <Y>69</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Meda Schovak</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>81</X>
+      <Y>56</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Meda Pruchodak</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>87</X>
+      <Y>26</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Boss Guards1</Name>
+    <FSM>BasicFSM</FSM>
+    <Position>
+      <X>115</X>
+      <Y>101</Y>
+    </Position>
+    <Character>BossGuard</Character>
+    <Actions>AttackSpells</Actions>
+  </NPC>
+
+
+
+
+  <NPC>
+    <Name>Skeleton 1</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>11</X>
+      <Y>119</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Skeleton 2</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>32</X>
+      <Y>111</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Skeleton 3</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>75</X>
+      <Y>121</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Skeleton 4</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>76</X>
+      <Y>116</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Skeleton 5</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>79</X>
+      <Y>92</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Skeleton 6</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>62</X>
+      <Y>87</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Skeleton 7</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>78</X>
+      <Y>68</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Skeleton 8</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>58</X>
+      <Y>54</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Skeleton 9</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>56</X>
+      <Y>10</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Skeleton 10</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>77</X>
+      <Y>23</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Skeleton 11</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>38</X>
+      <Y>51</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Skeleton 12</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>9</X>
+      <Y>64</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Skeleton 13</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>7</X>
+      <Y>82</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Skeleton 14</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>37</X>
+      <Y>83</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Skeleton 15</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>27</X>
+      <Y>120</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+  <NPC>
+    <Name>Skeleton 16</Name>
+    <FSM>GuardFSM</FSM>
+    <Position>
+      <X>101</X>
+      <Y>111</Y>
+    </Position>
+    <Character>Beast1</Character>
+    <Actions>BeastSpells</Actions>
+  </NPC>
+
+
+
+</List>

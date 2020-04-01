@@ -1,0 +1,2095 @@
+<?xml version="1.0" ?>
+<root>
+  <Objekts>
+    <Entity type="Microsoft.DirectX.Direct3D.Effect">
+      <ShadowMap type="Shader" string="Resources/Shaders/shadowMap.fx" />
+      <Shadows type="Shader" string="Resources/Shaders/newShadows.fx" />
+      <Particles type="Shader" string="Resources/Shaders/ParticleEffect.fx" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Sea/Sea.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="50 0 0 0 0 50 0 0 0 0 50 0 0 988 0 1" />
+      <name type="string" string="More" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.PickupObject">
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Pickup1/pickup1.X" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-1,8 0 0 0 0 1,8 0 0 0 0 -1,8 0 -3460 1015 -3100 1" />
+      <name type="string" string="Pickup1" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Klaster/Klaster.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-1,8 0 0 0 0 1,8 0 0 0 0 -1,8 0 -4460 1015 -3300 1" />
+      <name type="string" string="Hrad" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hisdec016/hisdec016.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-50 0 0 0 0 50 0 0 0 0 -50 0 -4400 1002 -600 1" />
+      <name type="string" string="Altanek" />
+    </Entity>
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Studna/studna.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-30 0 0 0 0 30 0 0 0 0 -30 0 -2000 1011 -1300 1" />
+      <name type="string" string="studna1" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hisdec053/hisdec053.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -3576 1015 -2962 1" />
+      <name type="string" string="fontana" />
+    </Entity>
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Altan/altan.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 1664 2040 4869 1" />
+      <name type="string" string="altan" />
+    </Entity>
+
+
+    <Entity type="WiccanRede.Objects.LightningObjects.LightingSprite">
+      <texture type="Texture" lenght="1">
+        <texture index="0" url="Resources/Textures/moon.dds" />
+      </texture>
+      <world type="Microsoft.DirectX.Matrix" matrix="800 0 0 0 0 800 0 0 0 0 800 0 -6500 6500 1000 1" />
+      <shader type="string" string="Sprite" />
+      <name type="string" string="Mesic" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Terrain">
+      <level type="int" int="3" />
+      <heightMap type="Bitmap" string="Resources/Maps/map.png" />
+      <mask type="Texture" lenght="1">
+        <texture index="0" url="Resources/Maps/map.png" />
+      </mask>
+      <layer1 type="Texture" lenght="1">
+        <texture index="0" url="Resources/Textures/grass.dds" />
+      </layer1>
+      <layer2 type="Texture" lenght="1">
+        <texture index="0" url="Resources/Textures/hlina.dds" />
+      </layer2>
+      <layer3 type="Texture" lenght="1">
+        <texture index="0" url="Resources/Maps/map.png" />
+      </layer3>
+      <name type="string" string="Teren" />
+    </Entity>
+
+
+
+
+
+
+
+
+
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Haus burk/Haus burk.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -100 0 0 100 0 0 100 0 0 0 -2700 925 -4900 1" />
+      <name type="string" string="HausBurk1" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/CedulePub/CedulePub.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="2 0 0 0 0 2 0 0 0 0 2 0 -2700 1250 -4450 1" />
+      <name type="string" string="Pub" />
+    </Entity>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Dum1/dum1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -0,5 0 0 0,5 0 0 0,5 0 0 0 -4800 1285 3500 1" />
+      <name type="string" string="DumNaKonciMapy" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Dum1/dum1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -0,5 0 0 0,5 0 0 0,5 0 0 0 -4930 1275 -2594 1" />
+      <name type="string" string="DumUVchoduHradu" />
+    </Entity>
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Dum1/dum1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,5 0 0 0,5 0 0 -0,5 0 0 0 -2484 1285 -2312 1" />
+      <name type="string" string="DumNevlastniBraska" />
+    </Entity>
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Dum1/dum1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0,5 0 0 0 0 0,5 0 0 0 0 0,5 0 -3770 1290 -2115 1" />
+      <name type="string" string="DumLevyBraska" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Dum1/dum1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0,5 0 0 0 0 0,5 0 0 0 0 0,5 0 -3299 1290 -2148 1" />
+      <name type="string" string="DumPravyBraska" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Dum1/dum1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,5 0 0 0,5 0 0 -0,5 0 0 0 -1933 1285 -3662 1" />
+      <name type="string" string="DumHrbitovnik" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Dum1/dum1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -0,5 0 0 0,5 0 0 0,5 0 0 0 -3250 1290 -3800 1" />
+      <name type="string" string="DumHrad" />
+    </Entity>
+
+
+
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -1983 1015 467 1" />
+      <name type="string" string="plot101" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -2083 1015 467 1" />
+      <name type="string" string="plot102" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -2183 1015 467 1" />
+      <name type="string" string="plot103" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -2283 1015 467 1" />
+      <name type="string" string="plot104" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -1930 1015 519 1" />
+      <name type="string" string="plot105" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -1930 1015 640 1" />
+      <name type="string" string="plot106" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -1930 1015 761 1" />
+      <name type="string" string="plot107" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -1930 1015 882 1" />
+      <name type="string" string="plot108" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -1930 1015 1003 1" />
+      <name type="string" string="plot109" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -1983 1015 1064,5 1" />
+      <name type="string" string="plot110" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -2083 1015 1064,5 1" />
+      <name type="string" string="plot111" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -2183 1015 1064,5 1" />
+      <name type="string" string="plot112" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -2283 1015 1064,5 1" />
+      <name type="string" string="plot113" />
+    </Entity>
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -2335 1015 1012 1" />
+      <name type="string" string="plot114" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -2335 1015 520 1" />
+      <name type="string" string="plot115" />
+    </Entity>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -3700 1015 4328 1" />
+      <name type="string" string="plot201" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -3800 1015 4328 1" />
+      <name type="string" string="plot202" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -3900 1015 4328 1" />
+      <name type="string" string="plot203" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -4000 1015 4328 1" />
+      <name type="string" string="plot204" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -3647 1015 4380 1" />
+      <name type="string" string="plot205" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -3647 1015 4501 1" />
+      <name type="string" string="plot206" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -3647 1015 4622 1" />
+      <name type="string" string="plot207" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -3647 1015 4743 1" />
+      <name type="string" string="plot208" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -3647 1015 4864 1" />
+      <name type="string" string="plot209" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -3700 1015 4925,5 1" />
+      <name type="string" string="plot210" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -3800 1015 4925,5 1" />
+      <name type="string" string="plot211" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -3900 1015 4925,5 1" />
+      <name type="string" string="plot212" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -4000 1015 4925,5 1" />
+      <name type="string" string="plot213" />
+    </Entity>
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -4052 1015 4873 1" />
+      <name type="string" string="plot214" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -4052 1015 4381 1" />
+      <name type="string" string="plot215" />
+    </Entity>
+
+
+
+
+
+
+
+
+
+
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -429 1015 -4474 1" />
+      <name type="string" string="plot301" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -529 1015 -4474 1" />
+      <name type="string" string="plot302" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -629 1015 -4474 1" />
+      <name type="string" string="plot303" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -729 1015 -4474 1" />
+      <name type="string" string="plot304" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -376 1015 -4422 1" />
+      <name type="string" string="plot305" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -376 1015 -4301 1" />
+      <name type="string" string="plot306" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -376 1015 -4180 1" />
+      <name type="string" string="plot307" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -376 1015 -4059 1" />
+      <name type="string" string="plot308" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -376 1015 -3938 1" />
+      <name type="string" string="plot309" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -429 1015 -3877,5 1" />
+      <name type="string" string="plot310" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -529 1015 -3877,5 1" />
+      <name type="string" string="plot311" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -629 1015 -3877,5 1" />
+      <name type="string" string="plot312" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-60 0 0 0 0 60 0 0 0 0 -60 0 -729 1015 -3877,5 1" />
+      <name type="string" string="plot313" />
+    </Entity>
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -781 1015 -3929 1" />
+      <name type="string" string="plot314" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Plot/plot.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 -60 0 0 60 0 0 -60 0 0 0 -781 1015 -4421 1" />
+      <name type="string" string="plot315" />
+    </Entity>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Obelisk/obelisk.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-1 0 0 0 0 1 0 0 0 0 -1 0 -2100 1009 770 1" />
+      <name type="string" string="Obelisk1" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Obelisk/obelisk.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-1 0 0 0 0 1 0 0 0 0 -1 0 2260 2030 -2000 1" />
+      <name type="string" string="Obelisk2" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Obelisk/obelisk.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 1 0 0 1 0 0 -1 0 0 0 -3850 1000 4747 1" />
+      <name type="string" string="Obelisk3" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Obelisk/obelisk.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 1 0 0 1 0 0 -1 0 0 0 -547 1000 -3997 1" />
+      <name type="string" string="Obelisk4" />
+    </Entity>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Pine2/pine2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -3000 1015 2747 1" />
+      <name type="string" string="Strom0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Pine2/pine2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -2500 1015 1747 1" />
+      <name type="string" string="Strom1" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Pine2/pine2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -4600 1015 747 1" />
+      <name type="string" string="Strom2" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Pine2/pine2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -2100 1015 -1200 1" />
+      <name type="string" string="Strom3" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Pine2/pine2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 1300 1015 -2900 1" />
+      <name type="string" string="Strom4" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Pine2/pine2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 1847 2040 -1701 1" />
+      <name type="string" string="Strom5" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Needle01/needle01.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -4300 1015 2675 1" />
+      <name type="string" string="Strom6" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Needle01/needle01.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -3671 1015 2775 1" />
+      <name type="string" string="Strom7" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Needle01/needle01.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -3957 1015 3778 1" />
+      <name type="string" string="Strom8" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Needle01/needle01.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -4869 1015 2564 1" />
+      <name type="string" string="Strom9" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 4869 1015 2564 1" />
+      <name type="string" string="Strom10" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 4279 1015 -248 1" />
+      <name type="string" string="Strom11" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 4351 1015 -2676 1" />
+      <name type="string" string="Strom12" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 724 1015 -4163 1" />
+      <name type="string" string="Strom13" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -3330 1015 2742 1" />
+      <name type="string" string="Strom14" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -3550 1015 2509 1" />
+      <name type="string" string="Strom14" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 2641 1422 354 1" />
+      <name type="string" string="Strom15" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 2827 1015 -1399 1" />
+      <name type="string" string="Strom16" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -3958 1015 2691 1" />
+      <name type="string" string="Strom17" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -3099 1015 2983 1" />
+      <name type="string" string="Strom18" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -3743 1015 3653 1" />
+      <name type="string" string="Strom19" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -1703 1015 2356 1" />
+      <name type="string" string="Strom20" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -2041 1015 2441 1" />
+      <name type="string" string="Strom21" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -2369 1015 2522 1" />
+      <name type="string" string="Strom22" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -2623 1015 2586 1" />
+      <name type="string" string="Strom23" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -2868 1015 2539 1" />
+      <name type="string" string="Strom24" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -2136 1015 2648 1" />
+      <name type="string" string="Strom25" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -1447 1015 2406 1" />
+      <name type="string" string="Strom26" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -1295 1196 2889 1" />
+      <name type="string" string="Strom27" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -1951 1015 3304 1" />
+      <name type="string" string="Strom28" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -2251 1015 3104 1" />
+      <name type="string" string="Strom29" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -2713 1015 3324 1" />
+      <name type="string" string="Strom30" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Hornbeam2/hornbeam2.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -2628 1015 3046 1" />
+      <name type="string" string="Strom31" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Needle01/needle01.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -1852 1015 2569 1" />
+      <name type="string" string="Strom32" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Needle01/needle01.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 30 0 0 30 0 0 -30 0 0 0 -2849 1015 2965 1" />
+      <name type="string" string="Strom33" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -2265 1015 2713 1" />
+      <name type="string" string="Strom34" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -3847 1015 2914 1" />
+      <name type="string" string="Strom35" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -2770 1015 2288 1" />
+      <name type="string" string="Strom36" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -3242 1015 2440 1" />
+      <name type="string" string="Strom37" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -1623 1015 2118 1" />
+      <name type="string" string="Strom38" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -1482 1015 1870 1" />
+      <name type="string" string="Strom39" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -2421 1015 3143 1" />
+      <name type="string" string="Strom40" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -3132 1015 2560 1" />
+      <name type="string" string="Strom41" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -2544 1015 2789 1" />
+      <name type="string" string="Strom42" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -3403 1015 2955 1" />
+      <name type="string" string="Strom43" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -101 2040 4586 1" />
+      <name type="string" string="Strom44" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -2366 1015 4568 1" />
+      <name type="string" string="Strom45" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -229 2019 3135 1" />
+      <name type="string" string="Strom46" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -752 2039 2706 1" />
+      <name type="string" string="Strom47" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -858 2036 -50 1" />
+      <name type="string" string="Strom48" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 573 2040 -3924 1" />
+      <name type="string" string="Strom49" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -1498 1052 -4053 1" />
+      <name type="string" string="Strom50" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -3300 1015 -4667 1" />
+      <name type="string" string="Strom51" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -2319 1015 2944 1" />
+      <name type="string" string="Strom52" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -632 2032 2712 1" />
+      <name type="string" string="Strom53" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -663 2034 -11 1" />
+      <name type="string" string="Strom54" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -4051 1015 -1451 1" />
+      <name type="string" string="Strom55" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 1052 1015 -1026 1" />
+      <name type="string" string="Strom56" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -740 2033 878 1" />
+      <name type="string" string="Strom57" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -2121 1015 4186 1" />
+      <name type="string" string="Strom58" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -3213 1015 -4727 1" />
+      <name type="string" string="Strom59" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -5051 1015 2515 1" />
+      <name type="string" string="Strom60" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -5021 1015 3399 1" />
+      <name type="string" string="Strom61" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -1725 1015 2533 1" />
+      <name type="string" string="Strom61" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -2035 1015 580 1" />
+      <name type="string" string="Strom62" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Strom1/strom1.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0 0 0,8 0 0 0,8 0 0 -0,8 0 0 0 -3792 1015 4416 1" />
+      <name type="string" string="Strom63" />
+    </Entity>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3550 1" />
+      <name type="string" string="Boss Guards1" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 3800 1015 3550 1" />
+      <name type="string" string="Boss Guards3" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 3600 1015 3550 1" />
+      <name type="string" string="Boss Guards2" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 3400 1015 3550 1" />
+      <name type="string" string="Boss Guards4" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+    
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Boss Guards5" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Boss Guards6" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+    
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Boss Guards7" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+    
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Boss Guards8" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+    
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Boss Guards9" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+    
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Boss Guards10" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+    
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Boss Guards11" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+
+
+
+
+
+
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 1" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 2" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 3" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 4" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 5" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 6" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 7" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 8" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 9" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 10" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 11" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 12" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 13" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 14" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 15" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/skeleton/skeleton.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 4000 1015 3600 1" />
+      <name type="string" string="Skeleton 16" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 0 0 0 0" />
+    </Entity>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Masha/masha2.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-0,35 0 0 0 0 0,35 0 0 0 0 -0,35 0 -3000 1015 -2800 1" />
+      <name type="string" string="Ardin" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -63 107 0 1" />
+    </Entity>
+
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Masha/masha.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-0,35 0 0 0 0 0,35 0 0 0 0 -0,35 0 1000 1015 -2800 1" />
+      <name type="string" string="Kara" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -63 107 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Masha/masha.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-0,35 0 0 0 0 0,35 0 0 0 0 -0,35 0 1000 1015 -2800 1" />
+      <name type="string" string="Pelin" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -63 107 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Masha/masha.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-0,35 0 0 0 0 0,35 0 0 0 0 -0,35 0 1000 1015 -2800 1" />
+      <name type="string" string="Marne" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -63 107 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Masha/masha.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="-0,35 0 0 0 0 0,35 0 0 0 0 -0,35 0 1000 1015 -2800 1" />
+      <name type="string" string="Wesena" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -63 107 0 0" />
+    </Entity>
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Masha/Masha2.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 4000 1015 3542 1" />
+      <name type="string" string="Matheel" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -63 107 0 1" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Masha/masha.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0,30 0 0 0 0 0,30 0 0 0 0 0,30 0 -2000 0 0 1" />
+      <name type="string" string="Hrac" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -75 110 0 1" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Masha/masha.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 -3000 1015 0 1" />
+      <name type="string" string="Mikel" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -63 107 0 1" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Masha/masha.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 -3000 1015 -1500 1" />
+      <name type="string" string="Ton" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -63 107 0 1" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Masha/masha.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 1000 1015 -2800 1" />
+      <name type="string" string="Vala" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -63 107 0 1" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <pMesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Masha/masha.x" />
+        <texture index="1" url="textures" />
+      </pMesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0,35 0 0 0 0 0,35 0 0 0 0 0,35 0 1000 1015 -2800 1" />
+      <name type="string" string="Ric" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -63 107 0 1" />
+    </Entity>
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+    <Entity type="WiccanRede.Objects.LightningObjects.Torch">
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Pochoden/torch.x" />
+        <texture index="1" url="texture" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -500 1120 0 1" />
+      <name type="string" string="Mikel_Pochoden" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.LightningObjects.Torch">
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Pochoden/torch.x" />
+        <texture index="1" url="texture" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -500 1120 0 1" />
+      <name type="string" string="Ton_Pochoden" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.LightningObjects.Torch">
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Pochoden/torch.x" />
+        <texture index="1" url="texture" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -500 1120 0 1" />
+      <name type="string" string="Vala_Pochoden" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.LightningObjects.Torch">
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Pochoden/torch.x" />
+        <texture index="1" url="texture" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -500 1120 0 1" />
+      <name type="string" string="Ric_Pochoden" />
+    </Entity>
+
+
+    <Entity type="WiccanRede.Objects.LightningObjects.Torch">
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Pochoden/torch.x" />
+        <texture index="1" url="texture" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -500 0 0 1" />
+      <name type="string" string="Hrac_Pochoden" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.LightningObjects.Torch">
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Pochoden/torch.x" />
+        <texture index="1" url="texture" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -500 1120 0 1" />
+      <name type="string" string="Matheel_Pochoden" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.LightningObjects.Torch">
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/Pochoden/torch.x" />
+        <texture index="1" url="texture" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -800 1120 0 1" />
+      <name type="string" string="Ardin_Pochoden" />
+    </Entity>
+
+
+
+
+
+
+
+
+
+    <Entity type="WiccanRede.Objects.Player">
+      <rootFrame type="Animation" string="Resources/Models/Meda/Meda.x" />
+      <world type="Microsoft.DirectX.Matrix" matrix="0,5 0 0 0 0 0,5 0 0 0 0 0,5 0 -2299 1015 828 1" />
+      <name type="string" string="Meda Brtnik" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0" />
+    </Entity>
+
+
+    <Entity type="WiccanRede.Objects.Player">
+      <rootFrame type="Animation" string="Resources/Models/Meda/Meda.x" />
+      <world type="Microsoft.DirectX.Matrix" matrix="0,5 0 0 0 0 0,5 0 0 0 0 0,5 0 -1805 1015 2930 1" />
+      <name type="string" string="Meda Lesnik" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <rootFrame type="Animation" string="Resources/Models/Meda/Meda.x" />
+      <world type="Microsoft.DirectX.Matrix" matrix="0,5 0 0 0 0 0,5 0 0 0 0 0,5 0 -453 2040 436 1" />
+      <name type="string" string="Meda Horak" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <rootFrame type="Animation" string="Resources/Models/Meda/Meda.x" />
+      <world type="Microsoft.DirectX.Matrix" matrix="0,5 0 0 0 0 0,5 0 0 0 0 0,5 0 1460 1015 -597 1" />
+      <name type="string" string="Meda Schovak" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Player">
+      <rootFrame type="Animation" string="Resources/Models/Meda/Meda.x" />
+      <world type="Microsoft.DirectX.Matrix" matrix="0,5 0 0 0 0 0,5 0 0 0 0 0,5 0 1957 1015 -2911 1" />
+      <name type="string" string="Meda Pruchodak" />
+      <handWorld type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0" />
+    </Entity>
+
+
+
+
+
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/houbicky/houbicky.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1,3 0 0 0 0 1,3 0 0 0 0 1,3 0 4195 1015 2781 1" />
+      <name type="string" string="houbickyBoss" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/houbicky/houbicky.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 3293 1015 -43 1" />
+      <name type="string" string="houbickyBossVchod" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/houbicky/houbicky.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 1911 2040 -2052 1" />
+      <name type="string" string="houbickyObelisk3" />
+    </Entity>
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/houbicky/houbicky.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="0,9 0 0 0 0 0,9 0 0 0 0 0,9 0 -1795 1015 -1171 1" />
+      <name type="string" string="houbickyStudna" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/houbicky/houbicky.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1 0 0 0 0 1 0 0 0 0 1 0 -2159 1015 263 1" />
+      <name type="string" string="houbickyObelisk1" />
+    </Entity>
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/houbicky/houbicky.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1,1 0 0 0 0 1,1 0 0 0 0 1,1 0 -4430 1015 649 1" />
+      <name type="string" string="houbickyAltanekUMesta" />
+    </Entity>
+
+
+
+
+
+
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/trava/trava.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1,5 0 0 0 0 1 0 0 0 0 1,5 0 -4030 1015 649 1" />
+      <name type="string" string="trava" />
+    </Entity>
+
+
+    <Entity type="WiccanRede.Objects.Building">
+      <normal_textures type="Texture" string="normal" />
+      <mesh type="meshX" lenght="5">
+        <texture index="0" url="Resources/Models/trava/trava.x" />
+        <texture index="1" url="color_textures0" />
+      </mesh>
+      <world type="Microsoft.DirectX.Matrix" matrix="1,5 0 0 0 0 1 0 0 0 0 1,5 0 4950 1015 649 1" />
+      <name type="string" string="travaBattleField" />
+    </Entity>
+
+
+
+
+
+  </Objekts>
+</root>

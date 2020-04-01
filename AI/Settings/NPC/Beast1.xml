@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NPC>
+  <Name>Beast</Name>
+  <Side>0</Side>
+  <Type>1</Type>
+  <VisualRange>14</VisualRange>
+  <Attributes hp="940" level="1" mana="50" power="4" defense="1"></Attributes>
+  <Priors overview="50" live="50" kill="55" hide="0" boost="50" cover="0" surprise="0" help="0"></Priors>
+</NPC>

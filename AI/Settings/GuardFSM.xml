@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FSM>
+  <State>
+    <StateName>Conflict</StateName>
+    <NextPossibleState>Stand</NextPossibleState>
+    <NextPossibleState>Defense</NextPossibleState>
+  </State>
+  <State>
+    <StateName>Defense</StateName>
+    <NextPossibleState>Stand</NextPossibleState>
+    <NextPossibleState>Conflict</NextPossibleState>
+  </State>
+  <State>
+    <StateName>Stand</StateName>
+    <NextPossibleState>Conflict</NextPossibleState>
+    <NextPossibleState>Seek</NextPossibleState>
+    <NextPossibleState>Defense</NextPossibleState>
+    <NextPossibleState>Talk</NextPossibleState>
+  </State>
+  <State>
+    <StateName>Talk</StateName>
+    <NextPossibleState>Stand</NextPossibleState>
+  </State>
+  <State>
+    <StateName>Start</StateName>
+    <NextPossibleState>Stand</NextPossibleState>
+  </State>
+  <State>
+    <StateName>Seek</StateName>
+    <NextPossibleState>Stand</NextPossibleState>
+    <NextPossibleState>Conflict</NextPossibleState>
+    <NextPossibleState>Defense</NextPossibleState>
+  </State>
+</FSM>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NPC>
+  <Name>Villager</Name>
+  <Side>0</Side>
+  <Type>2</Type>
+  <VisualRange>12</VisualRange>
+  <Attributes hp="990" level="2" mana="250" power="2" defense="5"></Attributes>
+  <Priors overview="50" live="90" kill="15" hide="0" boost="50" cover="0" surprise="0" help="0"></Priors>
+</NPC>

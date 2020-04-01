@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<GameStateMachine>
+  <Level id="0">opening</Level>
+  
+  <GameState>
+    <Name>Start</Name>
+    <Followers>
+      <Follower condition="enter">Pub</Follower>
+      <Follower condition="talk">Talking</Follower>
+      <Follower condition="find">Obelisc</Follower>
+    </Followers>
+    <Substates order="false">
+      <Substate object="Pub">find</Substate>
+      
+      <Substate object="Ardin">talk</Substate>
+      <Substate object="Kara">talk</Substate>
+      <Substate object="Pelin">talk</Substate>
+      <Substate object="Marne">talk</Substate>
+      <Substate object="Wesena">talk</Substate>
+    </Substates>
+  </GameState>
+
+  <!--<GameState>
+    <Name>Pub</Name>
+    <Followers>
+      <Follower condition="introdone">Talking</Follower>
+    </Followers>
+    <Substates>
+      <Substate object="GeneralObject">introdone</Substate>
+    </Substates>
+  </GameState>-->
+
+  <GameState>
+    <Name>Talking</Name>
+    <Followers>
+      <Follower condition="talkobelisc">Obelisc</Follower>
+      <Follower condition="talkvillager">TalkObelisc</Follower>
+    </Followers>
+    <Substates>
+      <Substate object="Ardin">talkvillager</Substate>
+    </Substates>
+  </GameState>
+
+  <GameState>
+    <Name>TalkObelisc</Name>
+    <Followers>
+      <Follower condition="talkwesena">Obelisc</Follower>
+    </Followers>
+    <Substates>
+      <Substate object="Wesena">talkwesena</Substate>
+    </Substates>
+  </GameState>
+  
+  <GameState>
+    <Name>Obelisc</Name>
+    <Followers>
+      <Follower condition="obeliscsdone">Path</Follower>
+    </Followers>
+    <Substates order="true">
+      <Substate object="Obelisk1">obelisc1</Substate>
+      <Substate object="Obelisk2">obelisc2</Substate>
+      <Substate object="Obelisk3">obelisc3</Substate>
+      <Substate object="Obelisk4">obeliscsdone</Substate>
+    </Substates>
+  </GameState>
+
+  <GameState>
+    <Name>Path</Name>
+    <Followers>
+      <Follower condition="info">Forest</Follower>
+    </Followers>
+    <Substates order="false">
+      <Substate object="Ardin">info</Substate>
+    </Substates>
+  </GameState>
+
+  <GameState>
+    <Name>Forest</Name>
+    <Followers>
+      <Follower condition="final">Final</Follower>
+    </Followers>
+    <Substates order="false">
+      <Substate object="GeneralObject">trap</Substate>
+      <Substate object="Matheel">Final</Substate>
+    </Substates>
+  </GameState>
+
+  <GameState>
+    <Name>Final</Name>
+    <Followers>
+      <Follower condition="outrodone">End</Follower>
+    </Followers>
+    <Substates order="false">
+      <Substate object="GeneralObject">outrodone</Substate>
+    </Substates>
+  </GameState>
+  
+</GameStateMachine>

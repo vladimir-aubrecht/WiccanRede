@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NPC>
+  <Name>Ric</Name>
+  <Side>2</Side>
+  <Type>3</Type>
+  <VisualRange>18</VisualRange>
+  <Attributes hp="1780" level="13" mana="450" power="9" defense="10"></Attributes>
+  <Priors overview="50" live="40" kill="80" hide="0" boost="50" cover="0" surprise="0" help="0"></Priors>
+</NPC>

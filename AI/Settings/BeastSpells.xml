@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Spells>
+  <Action>
+    <Name>Fire attack</Name>
+    <EnemyHpTaken>90</EnemyHpTaken>
+    <EnemyManaDrain>0</EnemyManaDrain>
+    <ManaDrain>0</ManaDrain>
+    <HpGot>0</HpGot>
+    <MyShift>0</MyShift>
+    <EnemyShift>0</EnemyShift>
+    <EnemySpeedReduce>0</EnemySpeedReduce>
+    <EnemyEnergyDrain>0</EnemyEnergyDrain>
+    <MyEnergyDrain>5</MyEnergyDrain>
+    <Probability>100</Probability>
+    <Range>2</Range>
+    <Time>2000</Time>
+  </Action>
+</Spells>

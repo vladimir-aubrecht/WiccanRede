@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NPC>
+  <Name>BossGuard</Name>
+  <Side>1</Side>
+  <Type>1</Type>
+  <VisualRange>15</VisualRange>
+  <Attributes hp="1540" level="5" mana="1150" power="6" defense="5"></Attributes>
+  <Priors overview="50" live="50" kill="75" hide="0" boost="50" cover="0" surprise="0" help="0"></Priors>
+</NPC>

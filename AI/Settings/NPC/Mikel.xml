@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NPC>
+  <Name>Mikel</Name>
+  <Side>2</Side>
+  <Type>3</Type>
+  <VisualRange>18</VisualRange>
+  <Attributes hp="1905" level="12" mana="480" power="15" defense="8"></Attributes>
+  <Priors overview="50" live="40" kill="80" hide="0" boost="50" cover="0" surprise="0" help="0"></Priors>
+</NPC>

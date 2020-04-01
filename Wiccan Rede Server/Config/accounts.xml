@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Accounts>
+  <Account>
+    <Username>golem2</Username>
+    <Password>experience</Password>
+    <Logged>false</Logged>
+  </Account>
+  <Account>
+    <Username>tomas</Username>
+    <Password>finta</Password>
+    <Logged>false</Logged>
+  </Account>
+  <Account>
+    <Username>test</Username>
+    <Password>test</Password>
+    <Logged>false</Logged>
+  </Account>
+</Accounts>

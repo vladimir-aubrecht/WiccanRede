@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FSM>
+  <State>
+    <StateName>Go</StateName>
+    <NextPossibleState>Weakness</NextPossibleState>
+    <NextPossibleState>Conflict</NextPossibleState>
+    <NextPossibleState>Stand</NextPossibleState>
+  </State>
+  <State>
+    <StateName>Conflict</StateName>
+    <NextPossibleState>Go</NextPossibleState>
+    <NextPossibleState>Defense</NextPossibleState>
+    <NextPossibleState>RunAway</NextPossibleState>
+  </State>
+  <State>
+    <StateName>Defense</StateName>
+    <NextPossibleState>Go</NextPossibleState>
+    <NextPossibleState>Conflict</NextPossibleState>
+    <NextPossibleState>RunAway</NextPossibleState>
+  </State>
+  <State>
+    <StateName>Weakness</StateName>
+    <NextPossibleState>Go</NextPossibleState>
+    <NextPossibleState>Defense</NextPossibleState>
+  </State>
+  <State>
+    <StateName>Stand</StateName>
+    <NextPossibleState>Go</NextPossibleState>
+    <NextPossibleState>Seek</NextPossibleState>
+  </State>
+  <State>
+    <StateName>RunAway</StateName>
+    <NextPossibleState>Defense</NextPossibleState>
+    <NextPossibleState>Weakness</NextPossibleState>
+  </State>
+  <State>
+    <StateName>Seek</StateName>
+    <NextPossibleState>Stand</NextPossibleState>
+    <NextPossibleState>Conflict</NextPossibleState>
+    <NextPossibleState>Defense</NextPossibleState>
+  </State>
+</FSM>

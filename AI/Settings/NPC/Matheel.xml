@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NPC>
+  <Name>Matheel</Name>
+  <Side>2</Side>
+  <Type>4</Type>
+  <VisualRange>19</VisualRange>
+  <Attributes hp="3030" level="9" mana="3500" power="45" defense="9"></Attributes>
+  <Priors overview="50" live="20" kill="95" hide="0" boost="50" cover="0" surprise="0" help="0"></Priors>
+</NPC>

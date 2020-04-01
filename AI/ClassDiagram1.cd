@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="WiccanRede.AI.AICore" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>AICore.cs</FileName>
+      <HashCode>AARAEAAAQCEABAAAAgACIAAAAAAgAQABIEggAABAAgA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WiccanRede.AI.Node" Collapsed="true">
+    <Position X="7.75" Y="3.75" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>Astar.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAABEAAQAIAAAAAAAAAAYQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiccanRede.AI.Astar" Collapsed="true">
+    <Position X="7.75" Y="3" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>Astar.cs</FileName>
+      <HashCode>AwIAAAEAQCAAAAMgACACAgAAAAAAAAAAAIAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiccanRede.AI.ControlNPC" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>ControlNPC.cs</FileName>
+      <HashCode>AAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAIAAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiccanRede.AI.DynamicProgramming" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>DynamicProgramming.cs</FileName>
+      <HashCode>ARAAAIAAAAAAQCAAAAAQIAAAAAAAAQAAAgAEAAECAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiccanRede.AI.FSM" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>FSM.cs</FileName>
+      <HashCode>AAAAAAAAIBAABSAECAAAAAAAABAAAAAAEAAQAAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiccanRede.AI.GamePlayer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>GamePlayer.cs</FileName>
+      <HashCode>AAQIACAQAAAAEACACAEAAAAEVDDAAAAgAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WiccanRede.AI.CharacterNPC" Collapsed="true">
+    <Position X="3" Y="5.25" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>CharacterNPC.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAEFAAAAAABAAAAAECI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiccanRede.AI.MapCellInfo" Collapsed="true">
+    <Position X="1.5" Y="2" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>Map.cs</FileName>
+      <HashCode>AAAAAAAABAAAAAQkAAAAIBAAIAAAAAAAAAAABxAAAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiccanRede.AI.Map" Collapsed="true">
+    <Position X="1.5" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>Map.cs</FileName>
+      <HashCode>IAQQABAAAAAAAAIEAIAAAAAABABAmAIAAgAAQCBAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiccanRede.AI.NPC" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="3" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>NPC.cs</FileName>
+      <HashCode>EgAIgDCQAIAANQCoODAAAo0EUDCgAABkgMBgRABCSAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WiccanRede.AI.Scripting" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>Scripting.cs</FileName>
+      <HashCode>AAAAAAQCAAAAAAAAAAAQCAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="WiccanRede.AI.ConflictState" Collapsed="true">
+    <Position X="5.5" Y="2.25" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>DynamicProgramming.cs</FileName>
+      <HashCode>AAABAAAQAAABAAAGQAFAACACADASAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WiccanRede.AI.Action" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>DynamicProgramming.cs</FileName>
+      <HashCode>AAAhAAAAAAAIAQCEgAAAAAQAAAIMAAAIAAEAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WiccanRede.AI.StateProbPairs" Collapsed="true">
+    <Position X="5.5" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>DynamicProgramming.cs</FileName>
+      <HashCode>AAAABAABAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WiccanRede.AI.FSM_State" Collapsed="true">
+    <Position X="7.75" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>FSM.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAIAAAAAiA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WiccanRede.AI.Priorities" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>FSM.cs</FileName>
+      <HashCode>AAAACgAAAAAAAABAAAAAAAAAAgAQAAAQAQBAAQAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WiccanRede.AI.NpcTask" Collapsed="true">
+    <Position X="3" Y="4.25" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>NPC.cs</FileName>
+      <HashCode>AAAAAAAAQAAAAAAEBAAAAAAEAAAECAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WiccanRede.AI.Status" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>NPC.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAQEIAAAIAAABAAAAAAAAABAAAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="WiccanRede.AI.IWalkable" Collapsed="true">
+    <Position X="5.5" Y="4" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>InterfacesEnums.cs</FileName>
+      <HashCode>ABAAAAACQAQAgACkAAAAAAAAAAAAAAAAAAAAAAAEgAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WiccanRede.AI.IControlable" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>InterfacesEnums.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAgAAAAAAAAAAAAALAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WiccanRede.AI.IActing" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>InterfacesEnums.cs</FileName>
+      <HashCode>AAAAACAAAAAAEACACAAAAAAEUBCAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="WiccanRede.AI.AiEvents">
+    <Position X="0.5" Y="6.25" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>InterfacesEnums.cs</FileName>
+      <HashCode>AAAAAgAAASAAAAAAIAAAAAAAAAAgAAAAAAAAIAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WiccanRede.AI.Priors" Collapsed="true">
+    <Position X="3.5" Y="6.25" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>InterfacesEnums.cs</FileName>
+      <HashCode>AAEAAQgAAAAAAgBAAABAABAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WiccanRede.AI.Result" Collapsed="true">
+    <Position X="8" Y="6.25" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>InterfacesEnums.cs</FileName>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WiccanRede.AI.NPCType" Collapsed="true">
+    <Position X="2" Y="6.25" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>InterfacesEnums.cs</FileName>
+      <HashCode>AAAAAAABAAAACAAAAAAQAEAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WiccanRede.AI.Side" Collapsed="true">
+    <Position X="6.5" Y="6.25" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>InterfacesEnums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAgAAAAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WiccanRede.AI.RatingType" Collapsed="true">
+    <Position X="5" Y="6.25" Width="1.25" />
+    <TypeIdentifier>
+      <FileName>Map.cs</FileName>
+      <HashCode>AAACAAAAAAAAQAAAAAAAAAgAAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

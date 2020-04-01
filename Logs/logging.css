@@ -1,0 +1,42 @@
+BODY
+{
+}
+table
+{
+	border-style:dotted;
+	border-top-style:none;
+	border-left-style:none;
+	border-right-style:none;
+	border-color:Black;
+	border-bottom-width: 1px;
+	width:800px;
+}
+
+.info
+{
+	color:black;
+}
+.important
+{
+	color:Green;
+	font-weight:bold;
+}
+.warning
+{
+	color:Orange;
+}
+.error
+{
+	color:Red;
+	font-weight:bold;
+}
+.time
+{
+	color:Blue;
+	width:60px;
+}
+
+.duration
+{
+	color: Blue;
+}
